@@ -13,7 +13,7 @@ public class SnakeGame extends JFrame {
     private GamePanel gamePanel;
 
     public SnakeGame() {
-        setTitle("🐍 Snake Game");
+        setTitle("Snake Game");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
 
@@ -54,7 +54,7 @@ class StartPanel extends JPanel {
         setPreferredSize(new Dimension(600, 600));
         setBackground(Color.BLACK);
 
-        JLabel title = new JLabel("🐍 Snake Game", SwingConstants.CENTER);
+        JLabel title = new JLabel("Snake Game", SwingConstants.CENTER);
         title.setBounds(0, 100, 600, 60);
         title.setFont(new Font("Arial", Font.BOLD, 50));
         title.setForeground(Color.GREEN);
@@ -265,3 +265,4 @@ class GamePanel extends JPanel implements ActionListener {
         }
     }
 }
+
